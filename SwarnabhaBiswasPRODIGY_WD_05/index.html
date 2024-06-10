@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/png" href="/assets/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <script src="https://kit.fontawesome.com/7f971ba31c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+    <div class="search passive">
+        <input class="city" type="text" placeholder="Search for weather">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="content">
+        <div class="icon">
+            <img src="images/rain.png">
+        </div>
+        <div class="temp">22&degC</div>
+        <div class="place">Ranchi</div>
+        <div class="others">
+            <img src="images/humidity.png" alt="">
+            <div class="smallBox">
+                <div class="humidity">20%</div>
+                <div>Humidity</div>
+            </div>
+            <img src="images/wind.png">
+            <div class="smallBox">
+                <div class="wind">20 km/h</div>
+                <div>Wind Speed</div>
+            </div>
+        </div>
+    </div>
+</div>    
+<script src="script.js"></script>
+</body>
+</html>
